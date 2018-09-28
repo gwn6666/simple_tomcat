@@ -11,6 +11,6 @@ public class ServletMappingConfig {
     public static List<ServletMapping> servletMappingList = new ArrayList<>();
 
     static {
-        servletMappingList.add(new ServletMapping("helloWorldServlet","/hello","tomcat.servlet.HelloWorldServlet"));
+        servletMappingList.add(new ServletMapping("helloWorld","/hello","tomcat.servlet.HelloWorldServlet"));
     }
 }

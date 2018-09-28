@@ -49,7 +49,6 @@ public class Tomcat {
 
     private void initServletMapping() {
         ServletMappingConfig.servletMappingList.forEach(temp -> urlServletMap.put(temp.getUrl(), temp.getCalzz()));
-
     }
 
     private void dispatch(Request request, Response response) {
